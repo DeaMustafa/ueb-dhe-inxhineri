@@ -36,7 +36,10 @@ if(!isset($_SESSION['admin_name'])){
       <a href="indexA.php" class="btn">edit</a>
       <a href="index.php" class="btn">continue as user</a>
    </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9d9c71735a7cf7bcfa49dc7acbaaf98d8f90217a
 </div>
 
 </body>

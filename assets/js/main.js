@@ -108,3 +108,21 @@ sr.reveal(`.home__data`,{origin:'bottom'})
 sr.reveal(`.about__data, .recently__data`,{origin:'left'})
 sr.reveal(`.about__img, .recently__img`,{origin:'right'})
 sr.reveal(`popular__card`,{interval: 100})
+
+var images = ['assets/img/about-sushi.png', 'assets/img/home-sushi-rolls.png', 'assets/img/recently-salmon-sushi.png"'];
+var i =0;
+function slideShow() {
+
+    document.getElementById("image").src=images[i];
+    if(i<images.length-1){
+          i++;
+}
+
+    else {
+        i=0;
+}
+
+    setTimeout("slideShow()" , 2000);
+}
+window.onload = slideShow;
+

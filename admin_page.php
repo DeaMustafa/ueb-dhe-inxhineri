@@ -33,8 +33,10 @@ if(!isset($_SESSION['admin_name'])){
       <a href="login_form.php" class="btn">login</a>
       <a href="register_form.php" class="btn">register</a>
       <a href="logout.php" class="btn">logout</a>
+      <a href="indexA.php" class="btn">edit</a>
+      <a href="index.php" class="btn">continue as user</a>
    </div>
-<p class="done"><a href="index.php">done</a></p>
+
 </div>
 
 </body>

@@ -41,6 +41,9 @@
                         <li class="nav__item">
                             <a href="#recently" class="nav__link">Recently</a>
                         </li>
+                        <li class="nav__item">
+                            <a href="views/create-menu.php" class="nav__link">Dashboard</a>
+                        </li>
                     </ul>
                     <!-- Close button -->
                     <div class="nav__close" id="nav-close">
@@ -110,14 +113,11 @@
                             from generation to generation.
                         </p>
                     </div>
-                
-                 <img src="assets/img/about-sushi.png" alt="about image" class="about__image">
-            
-    
+
+                    <img src="assets/img/about-sushi.png" alt="about image" class="about__img">
                 </div> 
-                
-                 <img src="assets/img/leaf-branch-1.png" alt="about image" class="about__leaf">
                  
+                 <img src="assets/img/leaf-branch-1.png" alt="about image" class="about__leaf">
             </section>
 
             <!--==================== POPULAR ====================-->
@@ -336,6 +336,5 @@
         <script src="assets/js/scrollreveal.min.js"></script>
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
-        
     </body>
 </html>

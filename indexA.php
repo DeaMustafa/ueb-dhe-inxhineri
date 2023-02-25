@@ -80,7 +80,7 @@
 
                         <div>
                             <img src="assets/img/home-sushi-title.png" alt="home image"> 
-                            Sushi Food
+                            sushi Food
                         </div>
                      </h1>
 

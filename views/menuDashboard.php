@@ -3,7 +3,7 @@ require_once '../controllers/MenuController.php';
 ?>
 <style>
 *{
-  font-family: sans-serif; 
+  font-family: 'Poppins', sans-serif;
 }
 
 .content-table {
@@ -17,7 +17,7 @@ require_once '../controllers/MenuController.php';
 }
 
 .content-table thead tr {
-  background-color: #009879;
+  background-color: crimson;;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -25,7 +25,7 @@ require_once '../controllers/MenuController.php';
 
 .content-table th,
 .content-table td {
-  padding: 12px 15px;
+  padding: 20px 45px;
 }
 
 .link{
@@ -65,8 +65,8 @@ require_once '../controllers/MenuController.php';
           <td><?php echo $menu['menu_emri']; ?></td>
           <td><?php echo $menu['menu_lloji']; ?></td>
           <td><?php echo $menu['menu_cmimi']; ?></td>
-          <td><a href="edit-menu.php?id=<?php echo $menu['id'];?>">Edit</a></td>
-          <td><a href="delete-menu.php?id=<?php echo $menu['id'];?>">Delete</a></td>
+          <td ><a href="edit-menu.php?id=<?php echo $menu['id'];?>">Edit</a></td>
+          <td ><a href="delete-menu.php?id=<?php echo $menu['id'];?>">Delete</a></td>
 
         </tr>
           <?php endforeach; ?>

@@ -42,11 +42,7 @@
                             <a href="#recently" class="nav__link">Recently</a>
                         </li>
                         <li class="nav__item">
-<<<<<<< HEAD
                             <a href="views/create-menu.php" class="nav__link">Dashboard</a>
-=======
-                            <a href="" class="nav__link">Dashboard</a>
->>>>>>> 9d9c71735a7cf7bcfa49dc7acbaaf98d8f90217a
                         </li>
                     </ul>
                     <!-- Close button -->
